@@ -1,5 +1,5 @@
 #baseURL = 'http://localhost:1313/'
-baseURL = 'https://marlinspike.github.io/arquesstudio/'
+baseURL = "https://marlinspike.github.io/arquesstudio.github.io/"
 languageCode = 'en-us'
 title = 'ArquesStudio'
 theme = 'ananke' # Change this if using a different theme
