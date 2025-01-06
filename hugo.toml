@@ -4,5 +4,5 @@ baseURL = "https://arquesstudio.com/"
 relativeURLs = false
 canonifyURLs = true
 languageCode = 'en-us'
-title = 'ArquesStudio'
+title = 'Arques Studio'
 theme = 'ananke' # Change this if using a different theme
