@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ArquesStudio</title>
-    <link>https://marlinspike.github.io/arquesstudio.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on ArquesStudio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Sep 2024 19:20:36 -0400</lastBuildDate>
-    <atom:link href="https://marlinspike.github.io/arquesstudio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
-      <link>https://marlinspike.github.io/arquesstudio.github.io/posts/welcome/</link>
+      <link>http://localhost:1313/posts/welcome/</link>
       <pubDate>Sat, 21 Sep 2024 19:20:36 -0400</pubDate>
-      <guid>https://marlinspike.github.io/arquesstudio.github.io/posts/welcome/</guid>
+      <guid>http://localhost:1313/posts/welcome/</guid>
       <description>&lt;p&gt;Hello, and I&amp;rsquo;m glad you&amp;rsquo;re here! Welcome to &lt;strong&gt;ArquesStudio&lt;/strong&gt;, my business fusing business, technology and design.&lt;/p&gt;</description>
     </item>
   </channel>
