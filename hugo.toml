@@ -7,6 +7,3 @@ languageCode = 'en-us'
 title = 'Arques Studio'
 theme = 'ananke' # Change this if using a different theme
 publishDir = 'public'
-
-[outputs]
-home = ["HTML", "CNAME"]
