@@ -1,5 +1,5 @@
 +++
-title = 'Welcome'
+title = 'Welcome to Arques Studio'
 date = 2024-09-21T19:20:36-04:00
 draft = false
 +++
