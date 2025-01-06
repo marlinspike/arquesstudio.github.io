@@ -3,7 +3,7 @@ name: Build and Deploy Hugo Site
 on:
   push:
     branches:
-      - main  # Deploy directly from main
+      - main  # Trigger workflow on changes to main branch
 
 jobs:
   build:
@@ -24,10 +24,14 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
-      # Step 4: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: main  # Deploy directly to main
+      # Step 4: Overwrite main branch with built files
+      - name: Deploy site
+        run: |
+          rm -rf .git
+          mv public/* ./
+          git init
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Deploy site"
+          git push -f https://github.com/marlinspike/arquesstudio.github.io.git main
